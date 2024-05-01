@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "ultimamod",
+	"version": "${version}",
+	"name": "Ultima Mod",
+	"description": "This is my first Mod, just learning somethings!",
+	"authors": [
+		"Nogarden!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/ultimamod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.nogarden.ultimamod.UltimaMod"
+		],
+		"client": [
+			"net.nogarden.ultimamod.UltimaModClient"
+		],
+		"fabric-datagen": [
+			"net.nogarden.ultimamod.UltimaModDataGenerator"
+		]
+	},
+	"mixins": [
+		"ultimamod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
