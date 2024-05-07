@@ -1,3 +1,7 @@
 {
-  "item.ultimamod.bar": "Bar"
+  "item.ultimamod.damascus_ingot": "Damascus Ingot",
+  "block.ultimamod.damascus_block": "Block of Damascus",
+
+  "item.ultimamod.damascus_pickaxe": "Damascus Pickaxe",
+  "item.ultimamod.damascus_sword": "Damascus Sword"
 }
